@@ -1,4 +1,4 @@
-import user_image from './user-image.png';
+import user_image from './user-image.jpg';
 import code_icon from './code-icon.png';
 import code_icon_dark from './code-icon-dark.png';
 import edu_icon from './edu-icon.png';
@@ -35,6 +35,16 @@ import right_arrow from './right-arrow.png';
 import send_icon from './send-icon.png';
 import right_arrow_bold from './right-arrow-bold.png';
 import right_arrow_bold_dark from './right-arrow-bold-dark.png';
+import web_development_light from './web_development_light.png';
+import web_development_dark from './web_development_dark.png';
+import data_base_light from './database_light.png';
+import data_base_dark from './database_dark.png';
+import mobile_app_development from './mobile-app-development.png';
+import mobile_app_development_dark from './mobile-app-development_dark.png';
+import P1_img1 from './P1_img1.jpg';
+import StyleSync from './StyleSync.png';
+import work_2 from './work-2.png';
+import P1_img4 from './P1_img4.jpg';
 
 export const assets = {
     user_image,
@@ -73,45 +83,53 @@ export const assets = {
     right_arrow,
     send_icon,
     right_arrow_bold,
-    right_arrow_bold_dark
+    right_arrow_bold_dark,
+    web_development_light,
+    web_development_dark,
+    data_base_light,
+    data_base_dark,
+    mobile_app_development,
+    mobile_app_development_dark,
+    P1_img1,
+    StyleSync,
+    work_2,
+    P1_img4
 };
 
 export const workData = [
     {
-        title: 'Frontend project',
-        description: 'Web Design',
+        title: 'StyleSync',
+        description: 'Salon Appointment Management System',
         bgImage: '/work-1.png',
     },
     {
-        title: 'Geo based app',
-        description: 'Mobile App',
+        title: 'Plura',
+        description: 'Saas website buildrt application',
         bgImage: '/work-2.png',
     },
     {
-        title: 'Photography site',
-        description: 'Web Design',
-        bgImage: '/work-3.png',
-    },
-    {
-        title: 'UI/UX designing',
-        description: 'UI/UX Design',
-        bgImage: '/work-4.png',
+        title: 'Fashion House',
+        description: 'E-Commerce application',
+        bgImage: '/work-3.jpeg',
     },
 ]
 
+
+
 export const serviceData = [
-    { icon: assets.web_icon, title: 'Web design', description: 'Web development is the process of building, programming...', link: '' },
-    { icon: assets.mobile_icon, title: 'Mobile app', description: 'Mobile app development involves creating software for mobile devices...', link: '' },
-    { icon: assets.ui_icon, title: 'UI/UX design', description: 'UI/UX design focuses on creating a seamless user experience...', link: '' },
-    { icon: assets.graphics_icon, title: 'Graphics design', description: 'Creative design solutions to enhance visual communication...', link: '' },
+    { icon: assets.web_icon, title: 'Web App Development', description: 'I build scalable, user-friendly, and high-performance web applications tailored to your business needs. Using modern technologies like React, Next.js, and Node.js, I create seamless digital experiences with responsive UI, secure backends, and optimized performance. ', link: '' },
+    { icon: assets.mobile_icon, title: 'Mobile App Development', description: 'I create fast, user-friendly, and scalable mobile applications tailored to your needs. Using React Native and Flutter, I build seamless cross-platform apps with intuitive UI, secure backends, and optimized performance. Let’s turn your idea into a powerful mobile experience! ', link: '' },
+    { icon: assets.ui_icon, title: 'UI/UX design', description: 'I design intuitive, engaging, and user-friendly interfaces that enhance digital experiences. With a focus on modern design principles, usability, and seamless navigation, I create visually appealing and functional designs that elevate your brand. Let’s craft a stunning user experience!', link: '' },
+    
 ]
 
 export const infoList = [
-    { icon: assets.code_icon, iconDark: assets.code_icon_dark, title: 'Languages', description: 'HTML, CSS, JavaScript React Js, Next Js' },
-    { icon: assets.edu_icon, iconDark: assets.edu_icon_dark, title: 'Education', description: 'B.Tech in Computer Science' },
-    { icon: assets.project_icon, iconDark: assets.project_icon_dark, title: 'Projects', description: 'Built more than 5 projects' }
+    { icon: assets.code_icon, iconDark: assets.code_icon_dark, title: 'Programming Languages', description: 'Java, C, PHP, JavaScript, TypeScript' },
+    { icon: assets.web_development_dark, iconDark: assets.web_development_light, title: 'Web Development', description: 'HTML, Node.JS, CSS, React.JS, Laravel' },
+    { icon: assets.mobile_app_development, iconDark: assets.mobile_app_development_dark, title: ' Mobile App Development', description: ' React Native' },
+    { icon: assets.data_base_dark, iconDark: assets. data_base_light, title: 'Database ', description: 'MySQL, MSSQL, PostgreSQL' }
 ];
 
 export const toolsData = [
-    assets.vscode, assets.firebase, assets.mongodb, assets.figma, assets.git
+    assets.vscode, assets.figma, assets.git
 ];
